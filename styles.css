@@ -71,7 +71,7 @@ body {
   height: 70%;
   background: linear-gradient(
     to bottom,
-    var(--building-color1),
+    var(--building-color1) 50%,
     var(--window-color1)
   );
 }
@@ -155,7 +155,6 @@ body {
 }
 
 /* Responsive Design */
-
 @media (max-width: 1000px) {
   :root {
     --building-color1: #000;
